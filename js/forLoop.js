@@ -11,6 +11,7 @@ for (i = 0; i < arrayLength; i++) {
   msg += 'Round' + roundNumber + ': ';
 
   msg += scores[i] + '<br />';
+
 }
 
 document.getElementById('answer').innerHTML = msg;
