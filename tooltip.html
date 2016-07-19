@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/normalize.css">
+<link rel="stylesheet" type="text/css" href="style/styling-part-five.css">
+<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+ <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+</head>
+<body>
+  <div id="page">
+    <h1 id="header">List</h1>
+    <h2>Buy groceries</h2>
+    <!-- note that we need to close the whitespace for the example to work in Safari -->
+    <ul>
+      <li id="one" class="hot"><em>fresh</em> figs</li>
+      <li id="two" class="hot">pine nuts</li>
+      <li id="three" class="hot">honey</li>
+      <li id="four"><span class='tooltip' data-tooltip-content="#tooltip_content"> balsamic vinegar</span></li>
+    </ul>
+
+    <div class="tooltip_templates">
+      <span id="tooltip_content">
+         <table>
+          <thead>
+            <tr>
+              <th>Payback %</th>
+              <th>Class</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0% to 50.99%</td>
+              <td>P1</td>
+              <td>51% to 75.99%</td>
+              <td>P2</td>
+              <td>76% to 80.99%</td>
+              <td>P3</td>
+              <td>0% to 50.99%</td>
+              <td>P4</td>
+              <td>0% to 50.99%</td>
+              <td>P5</td>
+              <td>0% to 50.99%</td>
+              <td>P6</td>
+              <td>0% to 50.99%</td>
+              <td>P7</td>
+              <td>0% to 50.99%</td>
+              <td>P8</td>
+              <td>0% to 50.99%</td>
+              <td>P9</td>
+              <td>0% to 50.99%</td>
+              <td>P10</td>
+              <td>0% to 50.99%</td>
+            </tr>
+          </tbody>
+         </table>
+      </span>
+    </div>
+  </div>
+
+<script src="js/tooltip.js"></script>
+
+</body>
+</html>

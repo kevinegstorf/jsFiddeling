@@ -140,3 +140,6 @@ p {
         background-size: 72px 72px;
     }
 }
+
+/*tooltip*/
+.tooltip_templates { display: none; }
