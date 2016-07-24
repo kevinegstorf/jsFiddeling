@@ -13,7 +13,7 @@ function checkLength(e, minLength){
   }
 }
 
-var elUsername = document.getElementById('udername');
+var elUsername = document.getElementById('username');
 if (elUsername.addEventListener) {
   elUsername.addEventListener('blur', function(e){
     checkUsername(e, 5);
